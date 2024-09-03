@@ -1,0 +1,19 @@
+html{
+    background-color: black;
+}
+body{
+    
+    width: 70%;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+header{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    margin: 0;
+}
