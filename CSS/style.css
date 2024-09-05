@@ -295,3 +295,203 @@ header h1{
     width: 100px; 
 }
 
+@media(max-width: 480px){
+    header{
+        width: 99%;
+    }
+    .container{
+        grid-template-columns: 1fr;
+        grid-row: 1fr,1fr,1fr,1fr;
+        
+        height: 700px;
+        
+    }
+    .c1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .c2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .c3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .c4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .quien{
+        grid-template-columns: 1fr;
+        grid-row: 1fr,1fr;
+    }
+    .quien img{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .quien article{
+        grid-column: 1/2;
+        grid-row: 2/3
+    }
+
+    .estudios{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr,1fr;
+        height: 1200px;
+    }
+    .e1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .e2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .e3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .habilidades{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr,1fr,1fr,1fr,1fr;
+        height: 1200px;
+    }
+    #hbs{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .hb1{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .hb2{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .hb3{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .hb4{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .aspiraciones{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr,1fr;
+    }
+    .sec1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .sec2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .container{
+        grid-template-columns: 1fr,1fr;
+        grid-template-rows: 1fr,1fr;
+        width: 300px;
+        margin: 0 auto;  
+        margin-top: 80px;
+        margin-bottom: 80px;
+        height: 450px;
+        
+    }
+    .c1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .c2{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .c3{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .c4{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .quien{
+        grid-template-columns: 1fr,1fr;
+        grid-row: 1fr;
+    }
+    .quien img{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .quien article{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .estudios{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr,1fr;
+        height: 1200px;
+    }
+    .e1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        height: 300px;
+    }
+    .e2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        height: 300px;
+    }
+    .e3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        height: 300px;
+    }
+
+    .habilidades{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr,1fr,1fr,1fr,1fr;
+        height: 1200px;
+    }
+    #hbs{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .hb1{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .hb2{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .hb3{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .hb4{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .aspiraciones{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr,1fr;
+    }
+    .sec1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .sec2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+}
