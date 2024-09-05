@@ -404,6 +404,7 @@ header h1{
     .aspiraciones{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr,1fr;
+        height: 1600px;
     }
     .sec1{
         grid-column: 1/2;
@@ -506,6 +507,7 @@ header h1{
     .aspiraciones{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr,1fr;
+        height: 1200px;
     }
     .sec1{
         grid-column: 1/2;
