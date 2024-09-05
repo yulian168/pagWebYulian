@@ -580,3 +580,18 @@ header h1{
     cursor: pointer;
     border: 1px solid lightblue;
 }
+
+footer{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #082567;
+    border-radius: 7px;
+    margin-bottom: 0;
+    color: white;
+    padding: 20px;
+}
+
+footer a{
+    float: right;
+}
