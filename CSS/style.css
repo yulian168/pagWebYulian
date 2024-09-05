@@ -1,11 +1,14 @@
 body{
-    background-color: black;
+    background-color: white;
+    font-family: 'Roboto';
+    margin: 0;
 }
 header{
     
     width: 70%;
     margin: 0 auto;
-    background-color: rgb(41, 204, 123);
+    background-color: #082567;
+    color: white;
     text-align: center;
     padding: 20px;
     border-radius: 7px;
@@ -22,7 +25,7 @@ header h1{
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color:black;
+    background-color:white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -35,7 +38,7 @@ header h1{
     padding: 20px;
     border-radius:5px ;
     border-top: 3px solid red;
-    background-color: beige;
+    background-color: #f4f4f4;
     grid-column: 1/2;
     grid-row: 2/4;
 }
@@ -50,7 +53,7 @@ header h1{
     padding: 20px;
     border-radius:5px ;
     border-top: 3px solid lightskyblue;
-    background-color: beige;
+    background-color: #f4f4f4;
     grid-column: 2/3;
     grid-row: 1/3;
 }
@@ -65,7 +68,7 @@ header h1{
     padding: 20px;
     border-radius:5px ;
     border-top: 3px solid yellow;
-    background-color: beige;
+    background-color: #f4f4f4;
     grid-column: 3/4;
     grid-row: 2/4;
 }
@@ -80,39 +83,43 @@ header h1{
     padding: 20px;
     border-radius:5px ;
     border-top: 3px solid lightskyblue;
-    background-color: beige;
+    background-color: #f4f4f4;
     grid-column: 2/3;
     grid-row: 3/5;
 }
+.c4 a{
+    color: black;
+    text-decoration: none;
+}
 
 .c1:hover{
-    box-shadow: 1px 1px 7px white;
+    box-shadow: 1px 1px 7px black;
     transition: box-shadow 0.3s ease;
     cursor: pointer;
     border: 1px solid red;
 }
 .c2:hover{
-    box-shadow: 1px 1px 7px white;
+    box-shadow: 1px 1px 7px black;
     transition: box-shadow 0.3s ease;
     cursor: pointer;
     border: 1px solid lightskyblue;
 }
 .c3:hover{
-    box-shadow: 1px 1px 7px white;
+    box-shadow: 1px 1px 7px black;
     transition: box-shadow 0.3s ease;
     cursor: pointer;
     border: 1px solid yellow;
 }
 .c4:hover{
-    box-shadow: 1px 1px 7px white;
+    box-shadow: 1px 1px 7px black;
     transition: box-shadow 0.3s ease;
     cursor: pointer;
     border: 1px solid lightskyblue;
 }
 
 .quien{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     width: 70%;
     margin: 0 auto;
     margin-top: 100px;
@@ -128,6 +135,7 @@ header h1{
     grid-column: 1/2;
     grid-row: 1/2;
     border-radius: 5px;
+    border: 3px solid lightblue;
 }
 
 .quien article{
@@ -138,7 +146,7 @@ header h1{
 }
 
 .estudios{
-    color: black;
+    color: white;
     width: 70%;
     height: 400px;
     margin: 0 auto;
@@ -152,7 +160,7 @@ header h1{
 .e1{
     grid-column: 1/2;
     grid-row: 1/2;
-    background-color: beige;
+    background-color: #87ceeb;
     border-radius: 5px;
     border: 2px solid lightgray;
     padding: 20px;
@@ -163,7 +171,7 @@ header h1{
 .e2{
     grid-column: 2/3;
     grid-row: 1/2;
-    background-color: beige;
+    background-color: #87ceeb;
     border-radius: 5px;
     border: 2px solid lightgray;
     padding: 20px;
@@ -174,7 +182,7 @@ header h1{
 .e3{
     grid-column: 3/4;
     grid-row: 1/2;
-    background-color: beige;
+    background-color: #87ceeb;
     border-radius: 5px;
     border: 2px solid lightgray;
     padding: 20px;
@@ -185,6 +193,7 @@ header h1{
 
 .habilidades{
     width: 70%;
+    color: white;
     margin: 0 auto;
     display: grid;
     margin-top: 150px;
@@ -195,12 +204,14 @@ header h1{
 .habilidades h2{
     grid-column: 1/3;
     grid-row: 1/2;
-    color: white;
+    color: black;
     text-align: center;
     height: 50px;
+    font-size:50px;
+    
 }
 .hb1{
-    background-color: white;
+    background-color: #2a52be;
     border-radius: 5px;
     grid-column: 1/2;
     grid-row: 2/3;
@@ -209,7 +220,7 @@ header h1{
 
 }
 .hb2{
-    background-color: white;
+    background-color: #2a52be;
     border-radius: 5px;
     grid-column: 1/2;
     grid-row: 3/4;
@@ -217,7 +228,7 @@ header h1{
     padding: 20px;
 }
 .hb3{
-    background-color: white;
+    background-color: #2a52be;
     border-radius: 5px;
     grid-column: 2/3;
     grid-row: 2/3;
@@ -226,7 +237,7 @@ header h1{
 
 }
 .hb4{
-    background-color: white;
+    background-color: #2a52be;
     border-radius: 5px;
     grid-column: 2/3;
     grid-row: 3/4;
@@ -241,7 +252,7 @@ header h1{
     height: 700px;
     margin-top: 100px;
     margin-bottom: 100px;
-    background-color: black;
+    background-color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -267,7 +278,9 @@ header h1{
 
 .sec1 h2{
     text-align: center;
-    color: white;
+    color: black;
+    font-size:38px;
+
 }
 
 .asp1{
@@ -275,20 +288,24 @@ header h1{
     border: 1px solid;
     margin: 20px;
     padding: 20px;
-    background-color: white;
+    background-color: #1560bd;
+    color: white;
 }
 .asp2{
     border-radius: 5px;
     border: 1px solid;
     margin: 20px;
     padding: 20px;
-    background-color: white;
+    background-color: #1560bd;
+    color: white;
 }
 
 .sec2 h2{
     text-align: center;
     grid-column: 1/3;
-    color: white;
+    color: black;
+    font-size:38px;
+
 }
 
 .sec2 img{
@@ -340,18 +357,22 @@ header h1{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr,1fr;
         height: 1200px;
+        margin-bottom: 80px;
     }
     .e1{
         grid-column: 1/2;
         grid-row: 1/2;
+        height: 350px;
     }
     .e2{
         grid-column: 1/2;
         grid-row: 2/3;
+        height: 350px;
     }
     .e3{
         grid-column: 1/2;
         grid-row: 3/4;
+        height: 350px;
     }
 
     .habilidades{
@@ -494,4 +515,68 @@ header h1{
         grid-column: 1/2;
         grid-row: 2/3;
     }
+}
+
+.e1:hover{
+    box-shadow: 1px 1px 7px black;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+}
+.e2:hover{
+    box-shadow: 1px 1px 7px black;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+}
+.e3:hover{
+    box-shadow: 1px 1px 7px black;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+}
+
+.hb1:hover{
+    box-shadow: 1px 1px 7px black;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.hb2:hover{
+    box-shadow: 1px 1px 7px black;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.hb3:hover{
+    box-shadow: 1px 1px 7px black;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.hb4:hover{
+    box-shadow: 1px 1px 7px black;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.asp1:hover{
+    box-shadow: 1px 1px 7px black;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.asp2:hover{
+    box-shadow: 1px 1px 7px black;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.quien img:hover{
+    box-shadow: 1px 1px 7px black;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid lightblue;
 }
